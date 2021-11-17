@@ -26,7 +26,7 @@ class FDM_MaterialsConan(ConanFile):
     }
 
     def package(self):
-        self.copy("*.fdm_material", src = ".", dst = os.path.join("res", "fmd_materials"))
+        self.copy("*.fdm_material", src = ".", dst = os.path.join("res", "fdm_materials"))
 
     def package_id(self):
         self.info.header_only()
