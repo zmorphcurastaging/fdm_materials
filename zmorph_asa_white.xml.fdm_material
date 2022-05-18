@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material" version="1.3">
+    <metadata>
+        <name>
+            <brand>Zmorph</brand>
+            <material>ASA</material>
+            <color>Generic</color>
+        </name>
+        <GUID>8fd190e6-7444-4fe2-8c7d-2f55ff66d48f</GUID>
+        <version>1</version>
+        <description> ASA  is  a  high-performance  thermoplastic  with  similar  mechanical  properties  as  ABS.  ASA  offers additional benefits such as high outdoor weather resistance. The UV resistance, toughness, and rigidity make it an  ideal material  to 3D-print  outdoor  fixtures  and  appliances  without  losing  its  properties  or  color. When  also taking into account the high heat resistance and high chemical resistance, this filament is a good choice for many types of applications.</description>
+        <adhesion_info>Print on heated buildplate with DIMAFIX adhesion</adhesion_info>
+
+    </metadata>
+    <properties>
+        <density>1.069</density>
+        <diameter>1.75</diameter>
+        <weight>750</weight>
+    </properties>
+    <settings>
+
+        <!-- print settings -->
+        <setting key="print temperature">270</setting>
+        <setting key="heated bed temperature">105</setting>
+        <setting key="standby temperature">220</setting>
+        <setting key="material flow">95</setting>
+
+        <machine>
+            <machine_identifier manufacturer="Zmorph S.A." product="Zmorph i500"/>
+            <hotend id="Build hotend 0.4" />
+                <setting key="hardware compatible">yes</setting>
+                <setting key="print cooling">20</setting>
+                <setting key="retraction amount">0.7</setting>
+			<hotend id="Support hotend 0.6">
+                <setting key="hardware compatible">no</setting>
+            </hotend>
+        </machine>
+
+    </settings>
+</fdmmaterial>
