@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material" version="1.3">
+    <metadata>
+        <name>
+            <brand>Zmorph</brand>
+            <material>PETG</material>
+            <color>Generic</color>
+        </name>
+        <GUID>261bd287-3a19-432b-8ccc-499317af5c81</GUID>
+        <version>1</version>
+        <description>Ultimaker PETG is easily printable and a good all-round material. For anyone needing parts that require more chemical and heat resistance than PLA, this is an excellent material to use.</description>
+        <adhesion_info>Print on heated buildplate with DIMAFIX adhesion.</adhesion_info>
+		
+    </metadata>
+    <properties>
+        <density>1.27</density>
+        <diameter>1.75</diameter>
+        <weight>1000</weight>
+    </properties>
+    <settings>
+
+        <!-- print settings -->
+        <setting key="print temperature">220</setting>
+        <setting key="heated bed temperature">70</setting>
+        <setting key="standby temperature">195</setting>
+        <setting key="adhesion tendency">0</setting>
+        <setting key="surface energy">100</setting>
+        <setting key="material flow">95</setting>
+
+        <machine>
+            <machine_identifier manufacturer="Zmorph S.A." product="Zmorph i500"/>
+            <hotend id="Build hotend 0.4" />
+                <setting key="hardware compatible">yes</setting>
+                <setting key="print cooling">100</setting>
+                <setting key="retraction amount">0.7</setting>
+			<hotend id="Support hotend 0.6">
+                <setting key="hardware compatible">no</setting>
+            </hotend>
+        </machine>
+
+    </settings>
+</fdmmaterial>
